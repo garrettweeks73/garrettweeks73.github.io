@@ -1,17 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>About</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    background-color:skyblue;
+}
+div {
+    margin: 25px;
+    padding: 25px;;
+}
+</style>
 </head>
 <body>
 
-<h3>About Me</h3>
-<p>I am a college student at the University of Oklahoma...</p>
-<a href="https://garrettweeks73.github.io/index">Home</a>
-<a href="https://garrettweeks73.github.io/about">About</a>
-<a href="https://garrettweeks73.github.io/skills">Skills</a>
-<a href="https://garrettweeks73.github.io/projects">Projects</a>
-<a href="https://garrettweeks73.github.io/experience">Experience</a>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+      </li>
+    </ul>
+</nav>
 
-</body>
-</html>
+<div class="header">
+    <h2>About Me...</h2>
+</div>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <p>My name is Garrett Weeks and I am a sophmore at the University of Oklahoma curently studying mechanical engineering. </p>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Download Resume</a>
+        </li>
+    </ul>
+</nav>
