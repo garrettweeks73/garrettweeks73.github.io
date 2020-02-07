@@ -1,21 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Home</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    background-color:cornsilk;
+    color: crimson;
+}
+div {
+    color: black;
+    margin: 25px;
+    padding: 25px;
+}
+.list-group-item {
+    background-color: crimson;
+    color: white;
+}
+.list-group {
+    border: white;
+    border-width: thin;
+}
+img {
+    border: crimson;
+    border-style: solid;
+    border-width: medium;
+    float: left;
+    padding: 5px;
+    height: auto;
+    max-width: 100%;
+}
+a.a {
+    color:rgb(195, 227, 255);
+}
+</style>
 </head>
 <body>
 
-<h6>Hello I'm...</h6>
-<h1>Garrett Weeks</h1>
-<p>College Student</p>
-<p>+1 (405) 664-0092</p>
-<p><garrettweeks73@gmail.com</p>
-<a href="https://garrettweeks73.github.io/index">Home</a>
-<a href="https://garrettweeks73.github.io/about">About</a>
-<a href="https://garrettweeks73.github.io/skills">Skills</a>
-<a href="https://garrettweeks73.github.io/projects">Projects</a>
-<a href="https://garrettweeks73.github.io/experience">Experience</a>
-<img src="headshot.jpg" width="250" height="300">
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://garrettweeks73.github.io/resume">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://garrettweeks73.github.io/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://garrettweeks73.github.io/skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://garrettweeks73.github.io/projects">Projects</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="https://garrettweeks73.github.io/experience">Experience</a>
+      </li>
+    </ul>
+</nav>
 
-</body>
-</html>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="row justify-content-center border border-dark">
+            <div class="col-lg">
+                <img src="headshot.jpg">
+            </div>
+            <div class="col-lg">
+                <h4>Hello! I'm <h1>Garrett Weeks</h1></h4>
+                <h6">Student</h6>
+                <h6>University of Oklahoma</h6>
+                <h6>Mechanical Engineering</h6>
+                <ul class="list-group border-white">
+                    <li class="list-group-item">Phone:
+                        <a class="a" href="tel:1-405-664-0092">1-405-664-0092</a>
+                    </li>
+                    <li class="list-group-item">Email:
+                        <a class="a" href="mailto:garrettweeks73@gmail.com">garrettweeks73@gmail.com</a>
+                    </li>
+                    <li class="list-group-item">DOB: January 31, 2000</li>
+                    <li class="list-group-item">Oklahoma City, OK</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Download Resume</a>
+        </li>
+    </ul>
+</nav>
