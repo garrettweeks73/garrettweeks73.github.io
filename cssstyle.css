@@ -1,0 +1,40 @@
+body {
+    background-color:cornsilk;
+    color: crimson;
+}
+div {
+    color: black;
+    margin: 25px;
+    padding: 25px;
+}
+.list-group-item {
+    background-color: crimson;
+    color: white;
+}
+.list-group {
+    border: white;
+    border-width: thin;
+}
+img {
+    border: crimson;
+    border-style: solid;
+    border-width: medium;
+    float: left;
+    padding: 5px;
+    height: auto;
+    max-width: 100%;
+}
+a.a {
+    color:rgb(195, 227, 255);
+}
+button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
