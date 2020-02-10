@@ -4,6 +4,7 @@ body {
 }
 div {
     color: black;
+    margin: 10px;
 }
 img {
     border: crimson;
