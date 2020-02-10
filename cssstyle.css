@@ -30,6 +30,6 @@ button {
     cursor: pointer;
     float: left;
 }
-.col-lg {
+div.col-lg {
     padding: 50px;
 }
