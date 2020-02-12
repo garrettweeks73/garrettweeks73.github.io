@@ -58,7 +58,7 @@ ul {
     padding: 20px;
     font-size: 25px;
 }
-ul li {
+ul li.a {
     background: tan;
     margin: 5px;
 }
