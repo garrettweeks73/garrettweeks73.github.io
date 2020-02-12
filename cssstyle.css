@@ -53,3 +53,12 @@ p {
     font-size: 25px;
     font-family: sans-serif;
 }
+ul {
+    background: blanchedalmond;
+    padding: 20px;
+    font-size: 25px;
+}
+ul li {
+    background: burlywood;
+    margin: 5px;
+}
