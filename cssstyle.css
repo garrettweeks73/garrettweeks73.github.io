@@ -53,12 +53,17 @@ p {
     font-size: 25px;
     font-family: sans-serif;
 }
-ul {
+ul.a {
     background: radial-gradient(crimson, cornsilk);
     padding: 20px;
     font-size: 25px;
 }
-ul li.a {
+ul.a li {
     background: tan;
     margin: 5px;
+}
+ul.b li {
+    margin: 2px;
+    color:black;
+    font-size: 18px;
 }
