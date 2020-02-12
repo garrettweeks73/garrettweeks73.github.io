@@ -54,11 +54,11 @@ p {
     font-family: sans-serif;
 }
 ul {
-    background: blanchedalmond;
+    background: radial-gradient(crimson, cornsilk);
     padding: 20px;
     font-size: 25px;
 }
 ul li {
-    background: burlywood;
+    background: tan;
     margin: 5px;
 }
