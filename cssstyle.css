@@ -30,7 +30,13 @@ button {
     cursor: pointer;
     float: left;
 }
-.column {
+.columna {
+    float: right;
+    width: 50%;
+    margin: 25px;
+    padding: 5px;
+}
+.columnb {
     float: left;
     width: 50%;
     margin: 25px;
