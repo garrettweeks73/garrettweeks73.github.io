@@ -41,3 +41,6 @@ button {
     display: table;
     clear: both;
   }
+  h1 {
+      size: 50px;
+  }
