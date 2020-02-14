@@ -67,6 +67,7 @@ h3 {
 }
 .header h1 {
     font-size: 45px;
+    color: white;
 }
 .hide {
     display: none;
