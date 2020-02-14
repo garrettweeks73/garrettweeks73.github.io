@@ -95,3 +95,7 @@ ul.navbar li a {
 ul.navbar li a:hover {
     background-color: rgb(38, 63, 63);
 }
+h2.projects {
+    font-size: 30px;
+    color: rgb(102, 128, 128);
+}
