@@ -46,6 +46,7 @@ ul.infolist {
     background: radial-gradient(crimson, cornsilk);
     padding: 20px;
     font-size: 25px;
+    list-style-type: none;
 }
 ul.infolist li {
     margin: 5px;
