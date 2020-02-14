@@ -1,5 +1,6 @@
 body {
     background-color:cornsilk;
+    font-family: sans-serif;
 }
 div {
     margin: 25px;
@@ -15,7 +16,7 @@ img {
     max-width: 100%;
     margin: 15px;
 }
-a.a {
+a.link {
     color:rgb(195, 227, 255);
 }
 .column {
@@ -41,23 +42,19 @@ p {
     font-size: 25px;
     font-family: sans-serif;
 }
-ul.a {
+ul.infolist {
     background: radial-gradient(crimson, cornsilk);
     padding: 20px;
     font-size: 25px;
 }
-ul.a li {
-    background: tan;
+ul.infolist li {
     margin: 5px;
 }
-ul.b li {
+ul.skillslist li {
     margin: 2px;
     color:black;
     font-size: 25px;
     font-family: sans-serif;
-}
-ul.b {
-    color: black;
 }
 h2 {
     font-size: 33px;
