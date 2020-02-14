@@ -1,5 +1,5 @@
 body {
-    background-color:cornsilk;
+    background: linear-gradient(45deg, maroon, transparent);
     font-family: sans-serif;
 }
 div {
@@ -7,7 +7,7 @@ div {
     padding: 5px;
 }
 img {
-    border: crimson;
+    border: black;
     border-style: solid;
     border-width: medium;
     float: left;
@@ -32,6 +32,7 @@ a.link {
   }
 h1 {
       font-size: 45px;
+      color: white;
   }
 div.row.justify-content-center {
     border-color: black;
@@ -43,10 +44,10 @@ p {
     font-family: sans-serif;
 }
 ul.infolist {
-    background: radial-gradient(crimson, cornsilk);
     padding: 20px;
     font-size: 25px;
     list-style-type: none;
+    color: white;
 }
 ul.infolist li {
     margin: 5px;
@@ -74,7 +75,7 @@ ul.navbar {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: crimson;
+    background-color: darkslategray;
 }
 ul.navbar li {
     float: left;
@@ -88,5 +89,5 @@ ul.navbar li a {
     text-decoration: none;
 }
 ul.navbar li a:hover {
-    background-color: rgb(150, 23, 48);
+    background-color: rgb(38, 63, 63);
 }
