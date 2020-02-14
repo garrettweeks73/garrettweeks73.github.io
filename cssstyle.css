@@ -81,3 +81,6 @@ h3 {
 .header h1 {
     font-size: 45px;
 }
+.hide {
+    display: none;
+}
