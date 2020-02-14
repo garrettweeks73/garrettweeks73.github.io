@@ -8,7 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
   $(document).ready(function() {
-      $("#menu li a").on('click', function() {
+      $("#menu li a").on('click', function(e) {
+          e.preventDefault();
           var page = $(this).data('page');
           $("#pages .page:not('.hide')").stop().fadeOut('fast', function() {
               $(this).addClass('hide');
