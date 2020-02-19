@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(45deg, maroon, transparent);
     font-family: sans-serif;
