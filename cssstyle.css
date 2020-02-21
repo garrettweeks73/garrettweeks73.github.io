@@ -10,11 +10,10 @@ div {
     padding: 5px;
 }
 img {
-    border: black;
+    border: white;
     border-style: solid;
     border-width: medium;
     float: left;
-    padding: 5px;
     height: auto;
     max-width: 100%;
     margin: 15px;
