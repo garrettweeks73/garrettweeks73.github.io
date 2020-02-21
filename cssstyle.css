@@ -23,7 +23,7 @@ div {
         margin-bottom: 100px;
     }
 }
-@media screen and (min-width: 801px) {
+@media screen and (max-width: 800px) {
     img {
         border: white;
         border-style: solid;
