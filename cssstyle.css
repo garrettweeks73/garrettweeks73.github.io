@@ -76,7 +76,8 @@ h2 {
 }
 h3 {
     font-family: sans-serif;
-    color: rgb(188, 196, 196);
+    color: white;
+    font-size: 1.7vw;
 }
 .header h1 {
     font-size: 2.5vw;
@@ -107,8 +108,8 @@ ul.navbar li a:hover {
     background-color: rgb(38, 63, 63);
 }
 h2.projects {
-    font-size: 30px;
-    color: rgb(188, 196, 196);
+    font-size: 1.7vw;
+    color: white;
 }
 div#home {
     margin-top: 100px;
