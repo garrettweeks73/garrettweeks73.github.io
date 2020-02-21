@@ -9,17 +9,33 @@ div {
     margin: 10px;
     padding: 5px;
 }
-img {
-    border: white;
-    border-style: solid;
-    border-width: medium;
-    float: left;
-    height: auto;
-    max-width: 100%;
-    margin: 15px;
-    width: 30%;
-    margin-left: 15%;
-    margin-bottom: 100px;
+@media screen and (min-width: 801px) {
+    img {
+        border: white;
+        border-style: solid;
+        border-width: medium;
+        float: left;
+        height: auto;
+        max-width: 100%;
+        margin: 15px;
+        width: 30%;
+        margin-left: 15%;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (min-width: 801px) {
+    img {
+        border: white;
+        border-style: solid;
+        border-width: medium;
+        float: left;
+        height: auto;
+        max-width: 100%;
+        margin: 15px;
+        width: 50%;
+        margin-left: 15%;
+        margin-bottom: 100px;
+    }
 }
 a.link {
     color:rgb(195, 227, 255);
