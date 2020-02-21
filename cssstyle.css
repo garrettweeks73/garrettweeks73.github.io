@@ -92,6 +92,7 @@ ul.navbar {
     padding: 0px;
     overflow: hidden;
     background-color: darkslategray;
+    font-size: 0.9vw;
 }
 ul.navbar li {
     float: left;
