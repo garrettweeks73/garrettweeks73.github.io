@@ -52,7 +52,7 @@ p {
 }
 ul.infolist {
     padding: 20px;
-    font-size: 25px;
+    font-size: 1.2vw;
     list-style-type: none;
     color: white;
 }
