@@ -62,6 +62,44 @@ a.a {
     </ul>
 </nav>
 
+
+
+$(document).ready(function(){
+    $("#a").click(function(){
+        $("#home").show();
+        $("#about, #skills, #projects, #experience").hide();
+    });
+  })
+$(document).ready(function(){
+    $("#b").click(function(){
+        $("#about").show();
+        $("#home, #skills, #projects, #experience").hide();
+    });
+  })
+  $(document).ready(function(){
+    $("#c").click(function(){
+        $("#skills").show();
+        $("#home, #about, #projects, #experience").hide();
+    });
+  })
+  $(document).ready(function(){
+    $("#d").click(function(){
+        $("#projects").show();
+        $("#home, #about, #skills, #experience").hide();
+    });
+  })
+  $(document).ready(function(){
+    $("#e").click(function(){
+        $("#experience").show();
+        $("#home, #about, #skills, #projects").hide();
+    });
+  })
+<button id="a">Home</button>
+<button id="b">About</button>
+<button id="c">Skills</button>
+<button id="d">Projects</button>
+<button id="e">Experience</button>
+
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="row justify-content-center border border-dark">
@@ -95,3 +133,126 @@ a.a {
         </li>
     </ul>
 </nav>
+
+<div class="container-fluid" id="home" style="clear:both">
+    <div class="row">
+        <div class="column">
+            <img src="headshot.jpg">
+        </div>
+        <div class="column">
+            <h1>Hi! I'm Garrett Weeks</h1>
+            <h2>University of Oklahoma</h2>
+            <h2>Student</h2>
+            <ul class="a">
+                <li>Phone: <a class="a" href="tel:1-405-664-0092">1-405-664-0092</a></li>
+                <li>Email: <a class="a" href="mailto:garrettweeks73@gmail.com">garrettweeks73@gmail.com</a></li>
+                <li>DOB: January 31, 2000</li>
+                <li>Oklahoma City</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="about" style="clear:both">
+    <div class="header" style="clear:both">
+        <h1>About Me...</h1>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p>My name is Garrett Weeks and I am a sophmore at the University of Oklahoma, currently studying mechanical engineering. I have a small amount of work experience mostly involving using computer languages Python, SQL, and HTML. I am actively expanding my skill set as I continue to go to school and find new opportunities for interships. Currently, I am balancing school and work while I do an internship for Electradigital but, I am actively searching for an internship opportunity for this coming summer.</p>
+        </div>    
+    </div>
+</div>
+
+
+
+<div class="container-fluid" id="skills" style="clear:both">
+    <div class="header" id="skills" style="clear:both">
+        <h1>My Skills...</h1>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <ul class="b">
+                <li><h3>Python</h3></li>
+                    <ul class="b">
+                        <li>I have work experience running multiple linear regression models with python.</li>
+                    </ul>
+                <li><h3>SQL</h3></li>
+                <ul class="b">
+                    <li>I have work experience using SQL to do data mining on massive databases in order to see only the necessary information.</li>
+                </ul>
+                <li><h3>HTML</h3></li>
+                <ul class="b">
+                    <li>I have been recently learning how to do some web design with HTML, Bootstrap, CSS, and jQuery.</li>
+                </ul>
+                <li><h3>C++</h3></li>
+                <ul class="b">
+                    <li>I took a class last semester where I learned how to use the language C++.</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid" id="projects" style="clear:both">
+    <div class="header" id="projects" style="clear:both">
+        <h1>My Projects...</h1>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <h2>Warwick Energy Group</h2>
+            <p>While doing an internship at Warwick, I spent the summer doing multiple linear regression models to estimate the oil and gas production in wells. In order to do this I had to use SQL to narrow down the database to show me only the info that I needed to see. After that, I spent my time running different types of regression models with different predictor variables to try and achieve the most accurate model. To test models for accuaracy I mostly used the r-squared score and the standard deviation values and interpreted them.</p>
+            <h2>Electradigital</h2>
+            <p>I have started off my internship at Electradigital learning how to do some web design and providing help to other employees when necessary.</p>
+        </div>  
+    </div>
+</div>
+
+
+
+<div class="container-fluid" id="experience" style="clear:both">
+    <div class="header" id="experience" style="clear:both">
+        <h1>My Experience...</h1>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <ul class="b">
+                <li><h3>Jeff's Aircraft Detailing</h3></li>
+                    <ul class="b">
+                        <li>Provided specialized maintenance for a fleet of business jets.</li>
+                    </ul>
+                    <ul class="b">
+                        <li>Provided chemicals and materials expertise for fleet maintenance.</li>
+                    </ul>
+                    <ul class="b">
+                        <li>Logged, recorded, and inspected maintenance discrepancies.</li>
+                    </ul>
+                    <ul class="b">
+                        <li>Member of fast paced, four-person, specialized equipment maintenance team.</li>
+                    </ul>
+                <li><h3>Warwick Energy Group</h3></li>
+                <ul class="b">
+                    <li>Performed multiple linear regression models using python computer language.</li>
+                </ul>
+                <ul class="b">
+                    <li>Sorted through massive databases using SQL computer language to see only useful info.</li>
+                </ul>
+                <ul class="b">
+                    <li>Went to weekly team meeting and reported findings to a supervisor.</li>
+                </ul>
+                <ul class="b">
+                    <li>Gave a final presentation about the results of my work.</li>
+                </ul>
+                <ul class="b">
+                    <li>Gained an understanding for oil and gas terms and abbreviations.</li>
+                </ul>
+                <li><h3>Electradigital</h3></li>
+                <ul class="b">
+                    <li>Made a website using HTML, CSS, Bootstrap, and jQuery.</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>
