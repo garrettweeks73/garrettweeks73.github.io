@@ -48,7 +48,7 @@ div.row.justify-content-center {
     background-color: darkslategray;
 }
 p {
-    font-size: 25px;
+    font-size: 1.2vw;
     font-family: sans-serif;
     color: white;
 }
@@ -64,7 +64,7 @@ ul.infolist li {
 ul.list li {
     margin: 2px;
     color:white;
-    font-size: 25px;
+    font-size: 1.2vw;
     font-family: sans-serif;
 }
 h2 {
@@ -79,7 +79,7 @@ h3 {
     color: rgb(188, 196, 196);
 }
 .header h1 {
-    font-size: 45px;
+    font-size: 2.5vw;
     color: white;
 }
 .hide {
