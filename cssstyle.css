@@ -34,8 +34,8 @@ div {
         max-width: 100%;
         margin: 15px;
         width: 50%;
-        margin-left: 15%;
-        margin-bottom: 0;
+        margin-left: 25%;
+        margin-bottom: 10px;
     }
 }
 a.link {
@@ -62,7 +62,6 @@ a.link {
         color: white;
         margin-bottom: 15px;
         margin-top: 0;
-        margin-left: 15%;
     }
 }
 div.row.justify-content-center {
@@ -198,6 +197,6 @@ h2.projects {
         padding: 5px;
         border-left: solid white;
         border-top: solid white;
-        margin-left: 15%;
+        margin-left: 25%;
     }
 }
