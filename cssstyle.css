@@ -187,8 +187,8 @@ h2.projects {
         width: 25%;
         margin: 15px;
         padding: 5px;
-        border-left: solid whitesmoke;
-        border-top: solid whitesmoke;
+        border-left: solid darkslategray;
+        border-top: solid darkslategray;
         background: linear-gradient(90deg, darkslategray, transparent);
     }
 }
@@ -198,8 +198,8 @@ h2.projects {
         width: 50%;
         margin: 0;
         padding: 5px;
-        border-left: solid whitesmoke;
-        border-top: solid whitesmoke;
+        border-left: solid darkslategray;
+        border-top: solid darkslategray;
         margin-left: 25%;
         background: linear-gradient(90deg, darkslategray, transparent);
     }
