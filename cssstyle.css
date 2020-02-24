@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(45deg, slategray, transparent);
+    background-color: gainsboro;
     font-family: monospace;
     margin: 0;
 }
@@ -52,7 +52,7 @@ a.link {
         font-size: 2.2vw;
         font-weight: 400;
         color: black;
-        margin-bottom: 15px;
+        margin-bottom: 0;
         margin-top: 0;
     }
 }
@@ -81,7 +81,8 @@ p {
         padding-left: 0px;
         font-size: 1.2vw;
         list-style-type: none;
-        color: black;
+        color: gray;
+        border-top: solid darkslategray;
     }
 }
 @media screen and (max-width: 800px) {
@@ -107,7 +108,7 @@ ul.list li {
     h2 {
         font-size: 1.4vw;
         font-weight: lighter;
-        color: black;
+        color: dimgray;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -186,6 +187,7 @@ h2.projects {
     .column {
         float: left;
         width: 35%;
+        height: auto;
         margin-left: 1%;
         margin-right: 13%;
         margin-top: 100px;
@@ -210,9 +212,9 @@ a {
     float: right;
 }
 b {
-    background-color: slategray;
     border-radius: 10%;
     font-weight: lighter;
+    color: black;
 }
 .row {
     margin-left: 15%;
