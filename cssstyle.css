@@ -131,13 +131,25 @@ h3 {
 .hide {
     display: none;
 }
-ul.navbar {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: darkslategray;
-    font-size: 0.9vw;
+@media screen and (min-width: 801px) {
+    ul.navbar {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        font-size: 0.9vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    ul.navbar {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: darkslategray;
+        font-size: 2vw;
+    }
 }
 ul.navbar li {
     float: left;
