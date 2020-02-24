@@ -34,17 +34,11 @@ div {
         margin: 15px;
         width: 50%;
         margin-left: 15%;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 }
 a.link {
     color:rgb(195, 227, 255);
-}
-.column {
-    float: left;
-    width: 40%;
-    margin: 15px;
-    padding: 5px;
 }
 .row::after {
     content: "";
@@ -62,11 +56,12 @@ a.link {
 }
 @media screen and (max-width: 800px) {
     h1 {
-        font-size: 4.2vw;
+        font-size: 4.8vw;
         font-weight: 400;
         color: white;
         margin-bottom: 15px;
         margin-top: 0;
+        margin-left: 15%;
     }
 }
 div.row.justify-content-center {
@@ -91,7 +86,7 @@ p {
 @media screen and (max-width: 800px) {
     ul.infolist {
         padding-left: 0px;
-        font-size: 3.2vw;
+        font-size: 2.2vw;
         list-style-type: none;
         color: white;
     }
@@ -116,7 +111,7 @@ ul.list li {
 }
 @media screen and (max-width: 800px) {
     h2 {
-        font-size: 3.4vw;
+        font-size: 2.8vw;
         font-weight: lighter;
         color: white;
         margin-top: 5px;
@@ -162,6 +157,34 @@ h2.projects {
     font-size: 1.7vw;
     color: white;
 }
-div#home {
-    margin-top: 100px;
+@media screen and (min-width: 801px){
+    div#home {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    div#home {
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 801px) {
+    .column {
+        float: left;
+        width: 40%;
+        margin: 15px;
+        padding: 5px;
+        border-left: solid white;
+        border-top: solid white;
+    }
+}
+@media screen and (max-width: 800px) {
+    .column {
+        float: left;
+        width: 50%;
+        margin: 0;
+        padding: 5px;
+        border-left: solid white;
+        border-top: solid white;
+        margin-left: 15%;
+    }
 }
