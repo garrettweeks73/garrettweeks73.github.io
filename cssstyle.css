@@ -189,6 +189,7 @@ h2.projects {
         padding: 5px;
         border-left: solid whitesmoke;
         border-top: solid whitesmoke;
+        background: linear-gradient(90deg, darkslategray, transparent);
     }
 }
 @media screen and (max-width: 800px) {
@@ -200,8 +201,14 @@ h2.projects {
         border-left: solid whitesmoke;
         border-top: solid whitesmoke;
         margin-left: 25%;
+        background: linear-gradient(90deg, darkslategray, transparent);
     }
 }
 a {
     float: right;
+}
+b {
+    background-color: steelblue;
+    border-radius: 10%;
+    font-weight: lighter;
 }
