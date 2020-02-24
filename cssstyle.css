@@ -3,7 +3,7 @@
 }
 body {
     background: linear-gradient(45deg, slategray, transparent);
-    font-family: sans-serif;
+    font-family: monospace;
     margin: 0;
 }
 div {
@@ -215,4 +215,5 @@ b {
 .row {
     margin-left: 15%;
     margin-right: 15%;
+    background-color: whitesmoke;
 }
