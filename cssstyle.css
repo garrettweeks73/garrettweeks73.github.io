@@ -79,7 +79,7 @@ p {
         font-size: 1.2vw;
         list-style-type: none;
         color: gray;
-        border-top: solid darkslategray;
+        border-top: solid black;
     }
 }
 @media screen and (max-width: 800px) {
@@ -164,7 +164,7 @@ ul.navbar li a {
     padding-top: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 ul.navbar li a:hover {
     border-bottom: solid lightslategray;
@@ -192,8 +192,7 @@ h2.projects {
         margin-right: 13%;
         margin-top: 100px;
         padding: 5px;
-        border-left: solid darkslategray;
-        border-top: solid darkslategray;
+        border-top: solid black;
     }
 }
 @media screen and (max-width: 800px) {
