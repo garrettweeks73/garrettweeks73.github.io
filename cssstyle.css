@@ -129,7 +129,7 @@ h3 {
     font-family: monospace;
     color: black;
     font-size: 2vw;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -184,7 +184,7 @@ ul.navbar li a:hover {
 h2.projects {
     font-size: 2vw;
     color: black;
-    font-weight: bold;
+    font-weight: 400;
 }
 @media screen and (min-width: 801px){
     div#home {
