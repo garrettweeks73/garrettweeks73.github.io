@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: dimgray;
+    background-color: lightslategray;
     font-family: monospace;
     margin: 0;
 }
@@ -176,7 +176,7 @@ ul.navbar li a {
     padding-bottom: 8px;
 }
 ul.navbar li a:hover {
-    border-bottom: solid lightslategray;
+    border-bottom: solid darkslategray;
 }
 h2.projects {
     font-size: 2vw;
