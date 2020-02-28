@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: lightslategray;
+    background: linear-gradient(45deg, #62707d, #adbfd4);
     font-family: monospace;
     margin: 0;
 }
@@ -66,7 +66,7 @@ a.link {
 }
 div.row.justify-content-center {
     background-color: white;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 1px;
 }
 p {
@@ -227,6 +227,7 @@ b {
 .row {
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 200px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
