@@ -178,7 +178,7 @@ ul.navbar li a:hover {
     border-bottom: solid lightslategray;
 }
 h2.projects {
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: black;
 }
 @media screen and (min-width: 801px){
