@@ -97,6 +97,9 @@ ul.infolist li {
     padding: 3px;
     border-block-start: whitesmoke solid 2px;
 }
+ul.list {
+    list-style: square;
+}
 ul.list li {
     margin: 2px;
     color:black;
