@@ -63,15 +63,17 @@ a.link {
     }
 }
 div.row.justify-content-center {
-    border-color: white;
+    border-color: lightslategray;
     border-style: solid;
-    border-width: 5px;
-    background-color: darkslategray;
+    border-width: 2px;
+    background-color: white;
+    margin-bottom: 100px;
 }
 p {
-    font-size: 1.2vw;
-    font-family: sans-serif;
-    color: white;
+    font-size: 1.4vw;
+    font-family: monospace;
+    color: black;
+    line-height: 2.5vw;
 }
 @media screen and (min-width: 801px) {
     ul.infolist {
@@ -97,9 +99,10 @@ ul.infolist li {
 }
 ul.list li {
     margin: 2px;
-    color:white;
+    color:black;
     font-size: 1.2vw;
-    font-family: sans-serif;
+    font-family: monospace;
+    line-height: 2.5vw;
 }
 @media screen and (min-width: 801px) {
     h2 {
@@ -120,14 +123,19 @@ ul.list li {
     }
 }
 h3 {
-    font-family: sans-serif;
-    color: white;
+    font-family: monospace;
+    color: black;
     font-size: 1.7vw;
     font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .header h1 {
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: white;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .hide {
     display: none;
@@ -171,7 +179,7 @@ ul.navbar li a:hover {
 }
 h2.projects {
     font-size: 1.7vw;
-    color: white;
+    color: black;
 }
 @media screen and (min-width: 801px){
     div#home {
@@ -219,4 +227,17 @@ b {
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
+}
+p#projects {
+    font-size: 1.4vw;
+    font-family: monospace;
+    color: black;
+    line-height: 2.5vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.col-8 {
+    margin: 25px;
 }
