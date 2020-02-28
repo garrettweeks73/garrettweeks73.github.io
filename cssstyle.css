@@ -240,6 +240,7 @@ p#projects {
     margin-top: 15px;
     margin-left: 35px;
     margin-right: 35px;
+    border-left: solid 2px lightslategray;
 }
 .col-8 {
     margin: 30px;
