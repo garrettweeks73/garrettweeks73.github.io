@@ -148,7 +148,7 @@ h3 {
         margin-top: 5px;
         padding: 0px;
         overflow: hidden;
-        font-size: 1vw;
+        font-size: 1.1vw;
     }
 }
 @media screen and (max-width: 800px) {
