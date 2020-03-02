@@ -318,12 +318,18 @@ b {
 i {
     color: #27b927;
 }
-div.row.justify-content-center#about {
-    margin-bottom: 21.5%;
+@media screen and (min-width: 801px) {
+    div.row.justify-content-center#about {
+        margin-bottom: 21.5%;
+    }
 }
-div.row.justify-content-center#skills {
-    margin-bottom: 7%;
+@media screen and (min-width: 801px) {
+    div.row.justify-content-center#skills {
+        margin-bottom: 7%;
+    }
 }
-div.row.justify-content-center#projects {
-    margin-bottom: 6.25%;
+@media screen and (min-width: 801px) {
+    div.row.justify-content-center#projects {
+        margin-bottom: 6.25%;
+    }
 }
