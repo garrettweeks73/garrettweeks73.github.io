@@ -225,7 +225,7 @@ b {
     font-weight: lighter;
     color: black;
 }
-@media screen and (max-width: 801px) {
+@media screen and (min-width: 801px) {
     .row {
         margin-left: 15%;
         margin-right: 15%;
@@ -234,7 +234,7 @@ b {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
     }
 }
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .row {
         margin-left: 15%;
         margin-right: 15%;
