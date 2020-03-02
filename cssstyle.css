@@ -25,8 +25,6 @@ div {
 }
 @media screen and (max-width: 800px) {
     img {
-        float: left;
-        height: auto;
         width: 60%;
         margin-left: 20%;
         margin-bottom: 5%;
@@ -73,8 +71,8 @@ div.row.justify-content-center {
 }
 @media screen and (max-width: 800px) {
     p {
-        font-size: 2.7vw;
-        line-height: 4vw;
+        font-size: 2.4vw;
+        line-height: 3.5vw;
     }
 }
 @media screen and (min-width: 801px) {
@@ -104,8 +102,8 @@ ul.infolist li {
     border-block-start: whitesmoke solid 2px;
 }
 ul.list {
-    list-style: square;
-    padding-inline-start: 3%;
+    list-style: none;
+    padding-inline-start: 0;
 }
 @media screen and (min-width: 801px) {
     ul.list li {
@@ -117,8 +115,8 @@ ul.list {
 }
 @media screen and (max-width: 800px) {
     ul.list li {
-        font-size: 2.7vw;
-        line-height: 4vw;
+        font-size: 2.4vw;
+        line-height: 3.5vw;
     }
 }
 @media screen and (min-width: 801px) {
@@ -151,7 +149,7 @@ ul.list {
 }
 @media screen and (max-width: 800px) {
     h3 {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
         font-weight: 100;
         margin-bottom: 1%;
         margin-top: 1%;
@@ -224,7 +222,7 @@ ul.navbar li a:hover {
 }
 @media screen and (max-width: 800px) {
     h2.projects {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
         color: black;
         font-weight: 400;
     }
@@ -297,12 +295,12 @@ b {
 }
 @media screen and (max-width: 800px) {
     p#projects {
-        font-size: 2.7vw;
-        line-height: 4vw;
+        font-size: 2.4vw;
+        line-height: 3.5vw;
         margin-bottom: 2%;
         margin-top: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 @media screen and (min-width: 801px) {
