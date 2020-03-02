@@ -99,6 +99,7 @@ ul.infolist li {
 }
 ul.list {
     list-style: square;
+    padding-inline-start: 3%;
 }
 ul.list li {
     color:black;
