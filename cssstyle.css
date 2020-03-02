@@ -230,7 +230,7 @@ b {
 .row {
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 7.25%;
+    margin-bottom: 7.5%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
@@ -251,11 +251,11 @@ i {
     color: #27b927;
 }
 div.row.justify-content-center#about {
-    margin-bottom: 21%;
+    margin-bottom: 21.25%;
 }
 div.row.justify-content-center#skills {
-    margin-bottom: 7.25%;
+    margin-bottom: 7.5%;
 }
 div.row.justify-content-center#projects {
-    margin-bottom: 6.4%;
+    margin-bottom: 6.5%;
 }
