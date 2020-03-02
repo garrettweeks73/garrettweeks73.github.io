@@ -250,3 +250,12 @@ p#projects {
 i {
     color: #27b927;
 }
+div.row.justify-content-center#about {
+    margin-bottom: 21%;
+}
+div.row.justify-content-center#skills {
+    margin-bottom: 7.25%;
+}
+div.row.justify-content-center#projects {
+    margin-bottom: 6.4%;
+}
