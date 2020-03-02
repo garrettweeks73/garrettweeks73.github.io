@@ -16,8 +16,8 @@ div {
         height: auto;
         max-width: 100%;
         width: 35%;
-        margin-left: 13%;
-        margin-right: 1%;
+        margin-left: 11%;
+        margin-right: 2%;
         margin-bottom: 100px;
         margin-top: 100px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
@@ -81,7 +81,7 @@ p {
         font-size: 1.2vw;
         list-style-type: none;
         color: gray;
-        border-top: solid black;
+        border-top: solid black 2px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -199,13 +199,12 @@ h2.projects {
 @media screen and (min-width: 801px) {
     .column {
         float: left;
-        width: 35%;
+        width: 40%;
         height: auto;
         margin-left: 1%;
-        margin-right: 13%;
         margin-top: 100px;
         padding: 5px;
-        border-top: solid black;
+        border-top: solid black 2px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -231,7 +230,7 @@ b {
 .row {
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 200px;
+    margin-bottom: 7.25%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
