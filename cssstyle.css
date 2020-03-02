@@ -63,11 +63,19 @@ div.row.justify-content-center {
     margin-bottom: 25%;
     padding: 1px;
 }
-p {
-    font-size: 1.4vw;
-    font-family: monospace;
-    color: black;
-    line-height: 2.5vw;
+@media screen and (min-width: 801px) {
+    p {
+        font-size: 1.4vw;
+        font-family: monospace;
+        color: black;
+        line-height: 2.5vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 2.7vw;
+        line-height: 4vw;
+    }
 }
 @media screen and (min-width: 801px) {
     ul.infolist {
@@ -99,11 +107,19 @@ ul.list {
     list-style: square;
     padding-inline-start: 3%;
 }
-ul.list li {
-    color:black;
-    font-size: 1.4vw;
-    font-family: monospace;
-    line-height: 2.5vw;
+@media screen and (min-width: 801px) {
+    ul.list li {
+        color:black;
+        font-size: 1.4vw;
+        font-family: monospace;
+        line-height: 2.5vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    ul.list li {
+        font-size: 2.7vw;
+        line-height: 4vw;
+    }
 }
 @media screen and (min-width: 801px) {
     h2 {
@@ -123,21 +139,43 @@ ul.list li {
         margin-bottom: 1%;
     }
 }
-h3 {
-    font-family: monospace;
-    color: black;
-    font-size: 2vw;
-    font-weight: 400;
-    margin-bottom: 1%;
-    margin-top: 1%;
+@media screen and (min-width: 801px) {
+    h3 {
+        font-family: monospace;
+        color: black;
+        font-size: 2vw;
+        font-weight: 400;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
 }
-.header h1 {
-    font-size: 2.9vw;
-    color: white;
-    margin-left: 7%;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    text-shadow: 1px 1px 2px #000000;
+@media screen and (max-width: 800px) {
+    h3 {
+        font-size: 3.5vw;
+        font-weight: 100;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 801px) {
+    .header h1 {
+        font-size: 2.9vw;
+        color: white;
+        margin-left: 7%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        text-shadow: 1px 1px 2px #000000;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header h1 {
+        font-size: 5vw;
+        color: white;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-shadow: 1px 1px 2px #000000;
+    }
 }
 .hide {
     display: none;
@@ -177,10 +215,19 @@ ul.navbar li a {
 ul.navbar li a:hover {
     border-bottom: solid 2px #27b927;
 }
-h2.projects {
-    font-size: 2vw;
-    color: black;
-    font-weight: 400;
+@media screen and (min-width: 801px) {
+    h2.projects {
+        font-size: 2vw;
+        color: black;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 800px) {
+    h2.projects {
+        font-size: 3.5vw;
+        color: black;
+        font-weight: 400;
+    }
 }
 @media screen and (min-width: 801px){
     div#home {
@@ -236,18 +283,37 @@ b {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
     }
 }
-p#projects {
-    font-size: 1.4vw;
-    font-family: monospace;
-    color: black;
-    line-height: 2.5vw;
-    margin-bottom: 1.5%;
-    margin-top: 1.5%;
-    margin-left: 3%;
-    margin-right: 3%;
+@media screen and (min-width: 801px) {
+    p#projects {
+        font-size: 1.4vw;
+        font-family: monospace;
+        color: black;
+        line-height: 2.5vw;
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
-.col-8 {
-    margin: 2.25%;
+@media screen and (max-width: 800px) {
+    p#projects {
+        font-size: 2.7vw;
+        line-height: 4vw;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (min-width: 801px) {
+    .col-8 {
+        margin: 2.25%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .col-8 {
+        margin: 3%;
+    }
 }
 i {
     color: #27b927;
