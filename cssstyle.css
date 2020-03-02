@@ -18,8 +18,8 @@ div {
         width: 35%;
         margin-left: 11%;
         margin-right: 2%;
-        margin-bottom: 100px;
-        margin-top: 100px;
+        margin-bottom: 7.5%;
+        margin-top: 7.5%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     }
 }
@@ -147,8 +147,8 @@ h3 {
 @media screen and (min-width: 801px) {
     ul.navbar {
         list-style-type: none;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin-left: 1.5%;
+        margin-top: 1.5%;
         padding: 0px;
         overflow: hidden;
         font-size: 1.1vw;
@@ -157,10 +157,10 @@ h3 {
 @media screen and (max-width: 800px) {
     ul.navbar {
         list-style-type: none;
-        margin: 0px;
+        margin-left: 1.5%;
+        margin-top: 0.25%;
         padding: 0px;
         overflow: hidden;
-        background-color: darkslategray;
         font-size: 2vw;
     }
 }
@@ -173,10 +173,8 @@ ul.navbar li a {
     text-align: center;
     font-family: monospace;
     text-decoration: none;
-    padding-top: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 8px;
 }
 ul.navbar li a:hover {
     border-bottom: solid 2px #27b927;
@@ -188,7 +186,7 @@ h2.projects {
 }
 @media screen and (min-width: 801px){
     div#home {
-        margin-top: 100px;
+        margin-top: 6%;
     }
 }
 @media screen and (max-width: 800px){
@@ -202,7 +200,7 @@ h2.projects {
         width: 40%;
         height: auto;
         margin-left: 1%;
-        margin-top: 100px;
+        margin-top: 7.5%;
         padding: 5px;
         border-top: solid black 2px;
     }
@@ -227,12 +225,23 @@ b {
     font-weight: lighter;
     color: black;
 }
-.row {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 7.5%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+@media screen and (max-width: 801px) {
+    .row {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 7.5%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    }
+}
+@media screen and (min-width: 800px) {
+    .row {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 25%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    }
 }
 p#projects {
     font-size: 1.4vw;
