@@ -66,7 +66,7 @@ a.link {
 }
 div.row.justify-content-center {
     background-color: white;
-    margin-bottom: 200px;
+    margin-bottom: 25%;
     padding: 1px;
 }
 p {
@@ -93,15 +93,14 @@ p {
     }
 }
 ul.infolist li {
-    margin: 5px;
-    padding: 3px;
+    margin: 1%;
+    padding: 0.5%;
     border-block-start: whitesmoke solid 2px;
 }
 ul.list {
     list-style: square;
 }
 ul.list li {
-    margin: 2px;
     color:black;
     font-size: 1.4vw;
     font-family: monospace;
@@ -112,8 +111,8 @@ ul.list li {
         font-size: 1.4vw;
         font-weight: lighter;
         color: dimgray;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 }
 @media screen and (max-width: 800px) {
@@ -130,15 +129,15 @@ h3 {
     color: black;
     font-size: 2vw;
     font-weight: 400;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 .header h1 {
     font-size: 2.9vw;
     color: white;
-    margin-left: 100px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     text-shadow: 1px 1px 2px #000000;
 }
 .hide {
@@ -201,7 +200,7 @@ h2.projects {
         height: auto;
         margin-left: 1%;
         margin-top: 7.5%;
-        padding: 5px;
+        padding: 0.5%;
         border-top: solid black 2px;
     }
 }
@@ -248,23 +247,23 @@ p#projects {
     font-family: monospace;
     color: black;
     line-height: 2.5vw;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .col-8 {
-    margin: 30px;
+    margin: 2.25%;
 }
 i {
     color: #27b927;
 }
 div.row.justify-content-center#about {
-    margin-bottom: 21.25%;
+    margin-bottom: 21.5%;
 }
 div.row.justify-content-center#skills {
-    margin-bottom: 7.5%;
+    margin-bottom: 7%;
 }
 div.row.justify-content-center#projects {
-    margin-bottom: 6.5%;
+    margin-bottom: 6.8%;
 }
