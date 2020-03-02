@@ -25,16 +25,12 @@ div {
 }
 @media screen and (max-width: 800px) {
     img {
-        border: darkslategray;
-        border-style: solid;
-        border-width: medium;
         float: left;
         height: auto;
-        max-width: 100%;
-        margin: 15px;
-        width: 50%;
-        margin-left: 25%;
-        margin-bottom: 10px;
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 10%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     }
 }
@@ -51,17 +47,15 @@ a.link {
         font-size: 2.2vw;
         font-weight: 400;
         color: black;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin: 0;
     }
 }
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 4.8vw;
         font-weight: 400;
-        color: white;
-        margin-bottom: 15px;
-        margin-top: 0;
+        color: black;
+        margin: 0;
     }
 }
 div.row.justify-content-center {
@@ -80,8 +74,9 @@ p {
         padding-left: 0px;
         font-size: 1.2vw;
         list-style-type: none;
-        color: gray;
+        color: dimgray;
         border-top: solid black 2px;
+        margin-top: 3%;
     }
 }
 @media screen and (max-width: 800px) {
@@ -89,7 +84,10 @@ p {
         padding-left: 0px;
         font-size: 2.2vw;
         list-style-type: none;
-        color: whitesmoke;
+        color: dimgray;
+        border-top: solid black 2px;
+        margin-top: 3%;
+        margin-bottom: 15%;
     }
 }
 ul.infolist li {
@@ -120,9 +118,9 @@ ul.list li {
     h2 {
         font-size: 2.8vw;
         font-weight: lighter;
-        color: whitesmoke;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        color: dimgray;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 }
 h3 {
@@ -158,7 +156,7 @@ h3 {
     ul.navbar {
         list-style-type: none;
         margin-left: 1.5%;
-        margin-top: 0.25%;
+        margin-top: 1.5%;
         padding: 0px;
         overflow: hidden;
         font-size: 2vw;
@@ -191,14 +189,13 @@ h2.projects {
 }
 @media screen and (max-width: 800px){
     div#home {
-        margin-top: 10px;
+        margin-top: 6%;
     }
 }
 @media screen and (min-width: 801px) {
     .column {
         float: left;
         width: 40%;
-        height: auto;
         margin-left: 1%;
         margin-top: 7.5%;
         padding: 0.5%;
@@ -207,14 +204,10 @@ h2.projects {
 }
 @media screen and (max-width: 800px) {
     .column {
-        float: left;
-        width: 50%;
-        margin: 0;
-        padding: 5px;
-        border-left: solid darkslategray;
-        border-top: solid darkslategray;
-        margin-left: 25%;
-        background: linear-gradient(90deg, darkslategray, transparent);
+        width: 65%;
+        padding: 0.5%;
+        margin-left: 17.5%;
+        border-top: solid black 2px;
     }
 }
 a {
