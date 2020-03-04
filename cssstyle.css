@@ -5,16 +5,11 @@ body {
     background: linear-gradient(45deg, #377ca5, #1854419e);
     font-family: monospace;
     margin: 0;
-}
-div {
-    margin: 0;
-    padding: 0;
+    font-weight: lighter;
 }
 @media screen and (min-width: 801px) {
     img {
         float: left;
-        height: auto;
-        max-width: 100%;
         width: 35%;
         margin-left: 11%;
         margin-right: 2%;
@@ -44,7 +39,6 @@ a.link {
     h1 {
         font-size: 2.2vw;
         font-weight: 400;
-        color: black;
         margin: 0;
     }
 }
@@ -52,20 +46,16 @@ a.link {
     h1 {
         font-size: 4.8vw;
         font-weight: 400;
-        color: black;
         margin: 0;
     }
 }
 div.row.justify-content-center {
-    background-color: white;
     margin-bottom: 25%;
     padding: 1px;
 }
 @media screen and (min-width: 801px) {
     p {
         font-size: 1.4vw;
-        font-family: monospace;
-        color: black;
         line-height: 2.5vw;
     }
 }
@@ -107,9 +97,7 @@ ul.list {
 }
 @media screen and (min-width: 801px) {
     ul.list li {
-        color:black;
         font-size: 1.4vw;
-        font-family: monospace;
         line-height: 2.5vw;
     }
 }
@@ -139,8 +127,6 @@ ul.list {
 }
 @media screen and (min-width: 801px) {
     h3 {
-        font-family: monospace;
-        color: black;
         font-size: 2vw;
         font-weight: 400;
         margin-bottom: 1%;
@@ -204,11 +190,10 @@ ul.navbar li {
 ul.navbar li a {
     display: block;
     color: white;
-    text-align: center;
-    font-family: monospace;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
 }
 ul.navbar li a:hover {
     border-bottom: solid 2px #27b927;
@@ -217,14 +202,12 @@ ul.navbar li a:hover {
     h2.projects {
         font-size: 2vw;
         color: black;
-        font-weight: 400;
     }
 }
 @media screen and (max-width: 800px) {
     h2.projects {
         font-size: 3.4vw;
         color: black;
-        font-weight: 400;
     }
 }
 @media screen and (min-width: 801px){
@@ -244,7 +227,7 @@ ul.navbar li a:hover {
         margin-left: 1%;
         margin-top: 7.5%;
         padding: 0.5%;
-        border-top: solid black 2px;
+        border-top: solid 2px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -259,7 +242,6 @@ a {
     float: right;
 }
 b {
-    border-radius: 10%;
     font-weight: lighter;
     color: black;
 }
@@ -284,8 +266,6 @@ b {
 @media screen and (min-width: 801px) {
     p#projects {
         font-size: 1.4vw;
-        font-family: monospace;
-        color: black;
         line-height: 2.5vw;
         margin-bottom: 1.5%;
         margin-top: 1.5%;
