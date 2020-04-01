@@ -304,12 +304,41 @@ i {
         margin-bottom: 6.25%;
     }
 }
-div#docStampTax h1 {
-    font-size: 2.9vw;
-    color: white;
+div#docStampTax {
+    font-family: sans-serif;
+}
+div#docStampTax.row {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+div#docStampTax.col-8 {
     text-align: center;
-    margin-left: 0;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    text-shadow: 1px 1px 2px #000000;
+    margin: 0;
+}
+div#docStampTax h1 {
+    font-size: 1.5vw;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 8%;
+    border-bottom: solid 1px #153773;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+label {
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+input#purchase_price {
+    border: solid #153773 1px;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 0.8vw;
+}
+button#calculate {
+    border-radius: 5px;
+    background: #153773;
+    color: white;
+    font-size: 0.8vw;
+    padding: 1%;
 }

@@ -16,7 +16,8 @@ function stampTaxCalc()
             var salePriceParse= salePrice / 500;
             var saleParseWhole=Math.ceil(salePriceParse);
             var stampTax= saleParseWhole * 0.75;
-            $("#stampTax").text(stampTax);
+            var stampTaxRounded= stampTax.toFixed(2);
+            $("#stampTax").text(stampTaxRounded);
       })
     })
 }
