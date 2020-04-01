@@ -30,6 +30,9 @@
     <li>
         <a data-page="experience" href="#">Experience</a>
     </li>
+    <li>
+        <a data-page="doc_stamp_tax" href="#">Documentary Stamp Tax Calculator</a>
+    </li>
 </ul>
 
 <div id="pages">
@@ -140,6 +143,18 @@
                         <li>Made a website using HTML, CSS, Bootstrap, and jQuery.</li>
                     </ul>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page hide" id="doc_stamp_tax" style="clear:both" data-page="doc_stamp_tax">
+        <div class="header" id="doc_stamp_tax" style="clear:both">
+            <h1>Documentary Stamp Tax Calculator</h1>
+        </div>
+        <div class="row justify-content-center" id="experience">
+            <div class="col-8">
+                <label for="purchase_price">Purchase Price</label>
+                <input id="purchase_price" type="number">
+                <button type="submit" onclick="stamp_tax_calc()">Calculate</button>
             </div>
         </div>
     </div>
