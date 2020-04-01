@@ -333,15 +333,18 @@ input#purchase_price {
     border: solid #153773 1px;
     border-radius: 5px;
     padding: 1%;
-    font-size: 0.8vw;
+    font-size: 1vw;
+    width: 100%;
 }
 button#calculate {
     border-radius: 5px;
     background: #153773;
     color: white;
-    font-size: 0.8vw;
+    font-size: 1vw;
     padding: 1%;
     border: none;
+    width: 100%;
+    margin-top: 3%;
 }
 button#calculate:focus {
     outline: none;
@@ -354,4 +357,8 @@ div#docStampTax p {
     margin-top: 5%;
     margin-bottom: 0;
     border-top: solid 1px #153773;
+}
+form {
+    width: 70%;
+    margin-left: 15%;
 }
