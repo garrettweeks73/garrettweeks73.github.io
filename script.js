@@ -8,3 +8,15 @@ $(document).ready(function() {
       })
   })
 })
+function stampTaxCalc()
+{
+    $(document).ready(function() {
+        $("#calculate").click(function() {
+            var salePrice=$("#purchase_price").val();
+            var salePriceParse= salePrice / 500;
+            var saleParseWhole=Math.ceil(salePriceParse);
+            var stampTax= saleParseWhole * 0.75;
+            $("#stampTax").text(stampTax);
+      })
+    })
+}
