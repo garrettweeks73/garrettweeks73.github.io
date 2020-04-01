@@ -320,7 +320,7 @@ div#docStampTax h1 {
     font-size: 1.5vw;
     color: black;
     margin-top: 0;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     border-bottom: solid 1px #153773;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
@@ -348,4 +348,10 @@ button#calculate:focus {
 }
 input#purchase_price:focus {
     outline: none;
+}
+div#docStampTax p {
+    font-size: 1vw;
+    margin-top: 5%;
+    margin-bottom: 0;
+    border-top: solid 1px #153773;
 }
