@@ -341,4 +341,5 @@ button#calculate {
     color: white;
     font-size: 0.8vw;
     padding: 1%;
+    border: none;
 }
