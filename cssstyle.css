@@ -343,3 +343,9 @@ button#calculate {
     padding: 1%;
     border: none;
 }
+button#calculate:focus {
+    outline: none;
+}
+input#purchase_price:focus {
+    outline: none;
+}
