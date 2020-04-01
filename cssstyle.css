@@ -325,16 +325,12 @@ div#docStampTax h1 {
     padding-bottom: 1.5%;
     padding-top: 1.5%;
 }
-label {
-    font-size: 1.1vw;
-    font-weight: 100;
-}
 input#purchase_price {
     border: solid #153773 1px;
     border-radius: 5px;
     padding: 1%;
     font-size: 1vw;
-    width: 100%;
+    width: 70%;
 }
 button#calculate {
     border-radius: 5px;
@@ -343,7 +339,7 @@ button#calculate {
     font-size: 1vw;
     padding: 1%;
     border: none;
-    width: 100%;
+    width: 70%;
     margin-top: 3%;
 }
 button#calculate:focus {
@@ -357,8 +353,4 @@ div#docStampTax p {
     margin-top: 5%;
     margin-bottom: 0;
     border-top: solid 1px #153773;
-}
-form {
-    width: 70%;
-    margin-left: 15%;
 }
