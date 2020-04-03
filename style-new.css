@@ -38,9 +38,6 @@
         justify-content: center;
         vertical-align: middle;
     }
-    .header-dropdown {
-        
-    }
     .header-menu-button {
         min-width: 64px;
         height: auto;
@@ -121,9 +118,6 @@
         flex-wrap: nowrap;
         justify-content: space-around;
         vertical-align: middle;
-    }
-    .header-dropdown {
-        
     }
     .header-menu-button {
         min-width: 64px;
@@ -723,10 +717,6 @@
 
 .table-function-button:hover {
     background-color: rgb(165,25,31);
-}
-
-.table-filter-list {
-
 }
 
 .table-modify-button {
@@ -1999,9 +1989,6 @@
     background: rgb(21,55,115) url(../assets/images/footer-background.png) no-repeat bottom center;
 }
 
-.footer-content {
-    
-}
 
 .language-select {
     width: auto;

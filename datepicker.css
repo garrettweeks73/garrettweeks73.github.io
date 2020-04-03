@@ -70,11 +70,6 @@
     background: rgb(165,25,31);
 }
 
-.active-month-current:hover {
-    /*
-    background: rgb(165,25,31) url(../assets/images/chevron-up-ffffff.png) no-repeat center left 8px;
-    */
-}
 
 .year-current {
     min-width: 33%;
@@ -104,11 +99,6 @@
     background: rgb(165,25,31);
 }
 
-.active-year-current:hover {
-    /*
-    background: rgb(165,25,31) url(../assets/images/chevron-up-ffffff.png) no-repeat center right 8px;
-    */
-}
 
 .month-previous {
     width: 8%;
