@@ -24,9 +24,10 @@ function stampTaxCalc()
 function numberFormat()
 {
     $(document).ready(function() {
-        $("#purchase_price").on(function() {
+        $("#purchase_price").blur(function() {
             var salePrice=$("#purchase_price").val();
             var salePriceRounded= stampPrice.toFixed(2);
+            $("#purchase_price").text("$" + stampTaxRounded);
       })
     })
 }
