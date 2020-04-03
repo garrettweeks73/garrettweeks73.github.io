@@ -8,6 +8,12 @@ $(document).ready(function() {
       })
   })
 })
+{
+$(document).ready(function () {
+    $("#purchase_price").bind('change',function () { 
+        $(this).val(function(i, v) { return parseFloat(v).toFixed(2); });
+    });
+});
 function stampTaxCalc()
 {
     $(document).ready(function() {
@@ -20,14 +26,4 @@ function stampTaxCalc()
             $("#stampTax").text("$" + stampTaxRounded);
       })
     })
-}
-function numberFormat()
-{
-    $(document).ready(function() {
-        $("#purchase_price").blur(function() {
-            var salePrice=$("#purchase_price").val();
-            var salePriceRounded= stampPrice.toFixed(2);
-            $("#purchase_price").text("$" + stampTaxRounded);
-      })
-    })
-}
+}}
