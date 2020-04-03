@@ -21,3 +21,12 @@ function stampTaxCalc()
       })
     })
 }
+function numberFormat()
+{
+    $(document).ready(function() {
+        $("#purchase_price").on(function() {
+            var salePrice=$("#purchase_price").val();
+            var salePriceRounded= stampPrice.toFixed(2);
+      })
+    })
+}
