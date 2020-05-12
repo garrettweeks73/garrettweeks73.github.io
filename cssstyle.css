@@ -382,13 +382,14 @@ div#geminiDashboard.grid-item {
     height: 15vw;
     border-radius: 8px;
 }
-div#geminiDashboard.header {
-    margin-bottom: 1%;
-    font-weight: bold;
-}
 div#geminiDashboard.header h1 {
-    font-size: 1.0vw;
+    font-size: 1.3vw;
+    font-weight: bold;
     text-align: center;
+    border-bottom: solid 1px;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 div#geminiDashboard h2 {
     font-size: 0.7vw;
