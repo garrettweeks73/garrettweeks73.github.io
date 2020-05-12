@@ -383,6 +383,8 @@ div#geminiDashboard.grid-item {
     border-radius: 8px;
 }
 div#geminiDashboard h1 {
+    color: black;
+    text-shadow: none;
     font-size: 1.3vw;
     font-weight: bold;
     text-align: center;
