@@ -367,3 +367,8 @@ input::-webkit-inner-spin-button {
 button#calculate:hover {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.50);
 }
+div#geminiDashboard.row {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
