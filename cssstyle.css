@@ -382,7 +382,7 @@ div#geminiDashboard.grid-item {
     height: 15vw;
     border-radius: 8px;
 }
-div#geminiDashboard.header h1 {
+div#geminiDashboard h1 {
     font-size: 1.3vw;
     font-weight: bold;
     text-align: center;
