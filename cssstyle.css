@@ -379,10 +379,12 @@ div#geminiDashboard.grid-item {
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
     background-color: white;
-    height: 10vw;
+    height: 15vw;
+    border-radius: 8px;
 }
 div#geminiDashboard.header {
     margin-bottom: 1%;
+    font-weight: bold;
 }
 div#geminiDashboard.header h1 {
     font-size: 1.0vw;
